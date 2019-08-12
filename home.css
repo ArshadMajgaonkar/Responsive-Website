@@ -209,3 +209,19 @@ Color: #8b8b99;
     background-color:#f69dad; 
 }
 
+#section-2 > aside > h1
+{
+Font-Family: 'Poppins', sans-serif;
+Font-weight: 600;
+font-Size: 24px;
+
+
+}
+
+#section-2 > aside >p
+{
+Font-Family: 'Poppins', sans-serif;
+font-Size: 14px;
+Letter-Spacing: 0.5px;
+Line-Height: 1.6;
+}
