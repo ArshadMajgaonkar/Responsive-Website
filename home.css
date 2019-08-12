@@ -55,38 +55,45 @@ cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
 }
-#dropdown
+.dropdown
 {
     position: absolute;
-    display: block;
-    transform: translateX(-150px);
-    top:60px;
+    display: none;
+    transform: translateX(-52px);
+    top:15px;
     margin-top: 3px;
     height: 23vh;
-    width: 10vw;    
-    background-color: lightblue;
+    width: 12vw;    
+    background-color:white;
     border-top: 1px solid orange;
     box-shadow: 3px 3px lightgray;
     text-align: center;
 }
-#dropdown >ul{
+.dropdown >ul{
     list-style: none;
     padding: 0;
     padding: 0 15;
 }
-#dropdown >ul >li
+.dropdown >ul >li
 {
     border-bottom: 1px solid orange;
     margin: 10px 0;
     padding-bottom: 10px;
     
 }
-#dropdown >ul >li:last-of-type
+.dropdown >ul >li:first-of-type
+{
+    margin-top: 20px;
+}
+.dropdown >ul >li:last-of-type
 {
     border-bottom: none;
 }
 
-
+#drop:hover > .dropdown
+{
+    display: block;
+}
 
 
 
