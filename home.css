@@ -321,7 +321,7 @@ Color: #8b8b99;
 /*********section-4 starts*******/
 #section-4
 {
-    height: 120%;
+    height: 130%;
     width: 100%;
     box-sizing: border-box;
     background-color: white;
@@ -489,3 +489,141 @@ Font-Style: Italic;
 }
 
 /******section-7 starts*******/
+
+#section-7
+{
+    background-color: white;
+    height: 97%;
+    width: 100%;
+    text-align: center;
+
+}
+#section-7 > h1
+{
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+#section-8
+{
+    height: 122%;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+
+}
+.s8-container
+{
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    display: inline-block; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#section-8 >div >p:first-of-type
+{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+#section-8 >div >h1
+{
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+
+#section-8 > div >p:last-of-type
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+#section-8 > div >h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+#section-8 > div >address
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+#section-8 > div >input
+{
+    display: block;
+    padding: 14px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+}
+
+#msgbox
+{
+    display: block;
+    padding: 14px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;  
+}
+
+#section-8 > div >button
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/*****section-9 starts ****/
+
+#section-9
+{
+    background-color: #232323;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#section-9 >span
+{
+    text-align: center;
+    color: white;
+
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 20px 0px;
+}
