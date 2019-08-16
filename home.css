@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body
 {
     margin: 0;
@@ -407,3 +410,82 @@ font-Size: 12px;
 Color: #8b8b99;
 Font-Style: Italic;
 }
+.container-4:hover
+{
+    cursor: pointer;
+    box-shadow: 5px 5px lightgray;
+}
+
+/*****section-5 starts********/
+#section-5
+{
+    height:95%;
+    width: 100%;
+    background-color: lightcoral;
+    padding: 0;
+}
+#section-5 > div:first-of-type
+{
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    background-color: #8b8b99;
+    display: inline-block;
+}
+#section-5 > div:first-of-type >img
+{
+    width: 100%;
+    height: 100%;
+}
+/*
+#section-5 > div:last-of-type
+{
+    height: 100%;
+    width: 29%;
+    background-color: yellow;
+    display: inline-block;
+    background-image: url(" https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    background-size: cover;
+}
+#section-5 > div:last-of-type > h1
+{
+    font-size: 44px;
+    font-weight: 600;
+}*/
+
+
+/*****section-6 starts *******/
+#section-6
+{
+    height:45%;
+    width:100%;
+    background-color: #f6fcfa;
+    padding-top: 5%;
+}
+#section-6 > div
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.s6-item
+{
+    background-color: white;
+    text-align: center;
+    
+}
+.s6-item >h1
+{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.s6-item >p
+{
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+
+/******section-7 starts*******/
