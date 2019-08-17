@@ -106,7 +106,7 @@ cursor: pointer;
 #section-1
 {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(" https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/landing-background.png?alt=media");
     background-size: cover;
     background-position-y:-80px; 
@@ -121,9 +121,7 @@ cursor: pointer;
 {
     text-transform: capitalize;
     color: black;
-
     text-align: center;
-    
     position: static;
     
 
@@ -432,9 +430,14 @@ Font-Style: Italic;
     display: inline-block;
     height: 100%;
     width: 65%;
-    background-image: url("https://mobirise.com/extensions/organicamp/assets/images/19.jpg");
+    /*background-image: url("https://mobirise.com/extensions/organicamp/assets/images/19.jpg");*/
     background-size: cover;
     
+}
+#section-5> div:first-of-type >img
+{
+    width: 100%;
+    height: 100%;
 }
 #section-5> div:last-of-type
 {
@@ -487,6 +490,11 @@ Font-Style: Italic;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 16px
+}
+#section-5> div:last-of-type > button:hover
+{
+    color: #f69dad;
+    background-color: white ;
 }
 
 
@@ -662,4 +670,144 @@ Font-Style: Italic;
     letter-spacing: 0.5px;
     text-align: center;
     margin-top: 20px 0px;
+}
+
+/*******MOBILE VERSION STARTS******/
+
+@media screen and (max-width:768px)
+{
+    body
+    {
+        margin:0;
+        padding: 0;
+    }
+    *
+    {
+        box-sizing: border-box;
+    }
+    nav {
+        width: 100vw;
+    }
+    .vis
+    {
+        display: none;
+    }
+    #section-1
+    {
+        padding: 0 30px;
+    }
+    #section-1-heading >h1
+    {
+        font-size: 35px; 
+    }
+
+    #section-2
+    {
+        display: block;
+        height: 1900px;
+    }
+    .section-2-aside
+    {
+        
+        width: 100%;
+    }
+
+    /***s-3**/
+    #section-3
+    {
+        height: 1700px;
+    }
+    #item-wrapper
+    {
+        display: block;
+    }
+    .containers
+    {
+        width: 100%;
+    }
+
+    /***s-4***/
+    #section-4
+    {
+        padding: 15px;
+        height: 1500px;
+    }
+    #section-4 >p
+    {
+
+    }
+    #card-wrapper
+    {
+        display: block;
+    }
+    .container-4
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /**s-5***/
+    #section-5
+    {
+        height: 900px;
+        display: block;
+    }
+    #section-5> div:first-of-type
+    {
+        display: block;
+        width: 100%;
+        height: 40%;
+
+    }
+    #section-5> div:last-of-type
+    {
+        display: block;
+        width: 100%;
+        height: 60%;
+    }
+
+    /***s-6***/
+    #section-6
+    {
+        height: 530px;
+    }
+    #section-6 > div
+    {
+        display: block;
+    }
+
+    /***s-7***/
+    #section-7
+    {
+        padding: 0 20px;
+        height: 400px;
+    }
+    #section-7 > p > video
+    {
+        width:80%;
+        height: 250px;
+    }
+
+    /****s-8****/
+    #section-8
+    {
+        display: block;
+        height: 1400px;
+    }
+    .s8-container
+    {
+        width: 100%;
+        height: 700px;
+    }
+    #section-8 >div >p:first-of-type
+    {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    /***s-9*****/
+    #section-9
+    {
+        
+    }
 }
